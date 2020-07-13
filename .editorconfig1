@@ -1,0 +1,14 @@
+//当读取编辑器配置时，读到这个文件就可以，不需要往上层目录搜索
+root=true
+
+[*]
+charset =utf-8
+end_of_line = lf
+//tab键长度是两
+indent_size = 2
+//tab输出的是空格 而不是制表符
+indent_style = space
+//在保存文件时自动在末尾加上一个空行
+insert_final_newline = true
+//如果在一行末尾添加了空格，自动删除这个空格
+trim_trailing_whitespace=true
